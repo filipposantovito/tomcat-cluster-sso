@@ -23,8 +23,8 @@
       <auth-method>FORM</auth-method>
       <realm-name>Example Form-Based Authentication Area</realm-name>
       <form-login-config>
-        <form-login-page>/login.jsp</form-login-page>
-        <form-error-page>/error.jsp</form-error-page>
+        <form-login-page>/protected/login.jsp</form-login-page>
+        <form-error-page>/protected/error.jsp</form-error-page>
       </form-login-config>
     </login-config>
 
