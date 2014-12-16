@@ -6,6 +6,8 @@
   version="3.1"
   metadata-complete="true">
 
+   <distributable/>
+
    <security-constraint>
       <display-name>Protected Context</display-name>
       <web-resource-collection>
