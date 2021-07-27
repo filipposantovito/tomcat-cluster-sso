@@ -24,7 +24,7 @@ static {
     <p>Virtual host port : <%=localPort%></p>
     <p>Context path : <%=contextPath %></p>
     <p>Current session: <%= session.getId() %></p>
-    <p>Current user: <%= request.getUserPrincipal() %>
+    <p>Current user: <%= request.getUserPrincipal() %> </p>
     <p><a href="protected/index.jsp">Protected page</a>.</p>
     <%
     String otherContextPath;
