@@ -14,7 +14,7 @@ static {
 <html>
   <body>
     <%
-    String localName = request.getLocalName();
+    String localName = request.getServerName();
     String localPort = Integer.toString(request.getLocalPort());
     String contextPath = request.getServletContext().getContextPath();
     %>
