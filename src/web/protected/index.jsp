@@ -14,7 +14,7 @@ static {
 <html>
   <body>
     <%
-    String localName = request.getLocalName();
+    String localName = request.getServerName();
     String localPort = Integer.toString(request.getLocalPort());
     %>
     <p>Application version : 0</p>
