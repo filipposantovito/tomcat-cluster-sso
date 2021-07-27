@@ -22,6 +22,6 @@ static {
     <p>Virtual host name : <%=localName%></p>
     <p>Virtual host port : <%=localPort%></p>
     <p>Current session: <%= session.getId() %></p>
-    <p>Current user: <%= request.getUserPrincipal() %>
+    <p>Current user: <%= request.getUserPrincipal() %></p>
   </body>
 </html>
